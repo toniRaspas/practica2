@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div>
+                <input type="text" id="tareaAñadir" placeholder="Añade una tarea">
+                <select id="prioridad">
+                    <option value>Elije prioridad</option>
+                    <option value="urgente">URGENTE</option>
+                    <option value="diaria">Diaria</option>
+                    <option value="semanal">Semanal</option>
+                </select>
+                <button id="guardar" onclick="anadirTarea(tareaIntro)">Guardar</button>
+            </div>
+
+            <div class="buscador">
+                <select id="filPrioridad" onclick="filtraTarea(filPrior)">
+                    <option value>Elije prioridad</option>
+                    <option value="urgente">URGENTE</option>
+                    <option value="diaria">Diaria</option>
+                    <option value="semanal">Semanal</option>
+                </select>
+                <input type="text" id="buscadorGuapo" onkeyup="filtraPalab(filPalab)" placeholder="Busca tu tarea">
+            </div>
+        </header>
+
+        <main>
+
+            <ul class="tarea">
+                <!--<li>hola que ase <button id="borrar">BORRAR</button></li>-->
+            </ul>
+        </main>
+
+        <footer>
+            <h3>Antoñerus totalis</h3>
+        </footer>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor
+{
+    background-color: lightgray;
+    width: 50em;
+    margin: auto;
+}
+footer
+{
+    background-color: black;
+    color: blanchedalmond;
+}
+.buscador
+{
+    background-color: black;
+}
+.tarea
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+#borrar
+{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+ul
+{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+}
+li
+{
+    display: flex;
+    justify-content: space-between;
+}
+button
+{padding:10px;
+color: red;}
+
+
+.urgente
+{background-color: lightcoral;}
+.diaria
+{background-color: lightblue;}
+.semanal
+{background-color: lightgoldenrodyellow;}
